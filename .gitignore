@@ -4,10 +4,22 @@
 *.o
 *.obj
 *.d
-
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+[Xx]64/
+[Xx]86/
+[Bb]uild/
+bld/
+[Bb]in/
+[Oo]bj/
 # Precompiled Headers
 *.gch
 *.pch
+# Temporary files
+CMakePresets.json
 
 # Compiled Dynamic libraries
 #*.dylib
@@ -31,3 +43,4 @@
 *.DS_Store
 /cmake-build-debug/
 /.idea/
+
